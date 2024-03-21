@@ -44,7 +44,6 @@ orders.aggregate([
     console.error(error);
   });
 
-  /*
 
 Customer.aggregate().project( 
 	{ name: 1, _id: 0, orderNumber: 1 } 
@@ -132,7 +131,7 @@ Customer.aggregate([
   })
   .catch(error => {
     console.error(error);
-  });*/
+  });
 
 
  
